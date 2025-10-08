@@ -1290,6 +1290,26 @@
 			(embedded_fonts no)
 		)
 	)
+	(text_box "allaboutcircuits.com/tools/555-timer-astable-circuit\n\nC12: 10n, 56n, 270n\nR11, R12: 560k, 910k, 4M7"
+		(exclude_from_sim no)
+		(at 161.29 106.68 0)
+		(size 64.77 10.16)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "bfd4b2f4-0e0d-40d6-a578-5715f742d30a")
+	)
 	(junction
 		(at 48.26 64.77)
 		(diameter 0)
@@ -2509,7 +2529,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "10n"
 			(at 101.6 96.5199 0)
 			(effects
 				(font
@@ -3005,7 +3025,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "10n"
 			(at 90.17 96.5199 0)
 			(effects
 				(font
@@ -3141,7 +3161,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "22"
 			(at 171.45 69.8499 0)
 			(effects
 				(font
@@ -3445,7 +3465,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "10n"
 			(at 134.62 96.5199 0)
 			(effects
 				(font
@@ -4178,7 +4198,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "22"
 			(at 36.83 80.0099 0)
 			(effects
 				(font
@@ -4463,7 +4483,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "22"
 			(at 171.45 80.0099 0)
 			(effects
 				(font
@@ -4533,7 +4553,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "22"
 			(at 50.8 80.0099 0)
 			(effects
 				(font
@@ -4827,7 +4847,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "22"
 			(at 162.56 80.0099 0)
 			(effects
 				(font
@@ -4963,7 +4983,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "22"
 			(at 59.69 80.0099 0)
 			(effects
 				(font
@@ -5033,7 +5053,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "22"
 			(at 25.4 80.0099 0)
 			(effects
 				(font
@@ -5337,7 +5357,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "22"
 			(at 162.56 69.8499 0)
 			(effects
 				(font
@@ -5407,7 +5427,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "10n"
 			(at 146.05 96.5199 0)
 			(effects
 				(font
