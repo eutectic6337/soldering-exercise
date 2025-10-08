@@ -3465,7 +3465,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10n"
+		(property "Value" "C"
 			(at 134.62 96.5199 0)
 			(effects
 				(font
