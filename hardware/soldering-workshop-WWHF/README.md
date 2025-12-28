@@ -91,6 +91,8 @@ But sometimes this can be hard to distinguish.
 If you can't decide which of the colour bands is the right choice to start reading,
 try reading it both ways. One way will give a "nonsense" value and the other way will be correct.
 
+Or, just measure it with a multimeter - the official value will be whatever "preferred value" (see below) is closest to the measured value.
+
 ### [preferred values](https://en.wikipedia.org/wiki/E12_series)
 
 Resistor values are only approximate (as indicated by their "tolerance"), and are only manufactured in a limited set of nominal values.
