@@ -17,9 +17,9 @@
 
 - (V_battery - V_led) / I_led
 
--- e.g. (3 - 1.8(red)) / 0.02(bright) = 60 ohm
+ - e.g. (3 - 1.8(red)) / 0.02(bright) = 60 ohm
 
--- e.g. (3 - 2.4(white)) / 0.005(dim) = 30 ohm
+ - e.g. (3 - 2.4(white)) / 0.005(dim) = 30 ohm
 
 
 1 battery holder
@@ -54,8 +54,8 @@
 
 - T_low = 0.694 x R_12 x C_11
 
--- e.g. f = 1.44 / ((100 + 2 x 900k) x 200n = 4 Hz, 50% duty
+ - e.g. f = 1.44 / ((100 + 2 x 900k) x 200n = 4 Hz, 50% duty
 
--- e.g. f = 1.44 / ((500k + 2 x 500k) x 100n = 9.6 Hz, 67% duty
+ - e.g. f = 1.44 / ((500k + 2 x 500k) x 100n = 9.6 Hz, 67% duty
 
 1 battery holder, if your board does not yet have one
