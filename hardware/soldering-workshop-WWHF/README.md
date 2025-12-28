@@ -50,7 +50,7 @@ through-hole, or surface-mount 1206 or 0603
 
 2 timing-controlling resistors, for RES 11 and RES 12
 
-- allaboutcircuits.com/tools/555-timer-astable-circuit
+- online calculator at https://allaboutcircuits.com/tools/555-timer-astable-circuit
 
 - f = 1.44 / ((R_11 + 2 x R_12) x C_11)
 
