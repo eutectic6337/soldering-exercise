@@ -1,5 +1,9 @@
 # WWHF 2026 soldering exercise
 
+2 different circuits
+
+through-hole, or surface-mount 1206 or 0603
+
 ## Simple circuit
 
 2 LEDs light up whenever a battery is inserted
