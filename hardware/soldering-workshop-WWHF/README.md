@@ -21,9 +21,11 @@ through-hole, or surface-mount 1206 or 0603
 
 - (V_battery - V_led) / I_led
 
- - e.g. (3 - 1.8(red)) / 0.02(bright) = 60 ohm
+    - e.g. (3 - 1.8(red)) / 0.02(bright) = 60 ohm
 
- - e.g. (3 - 2.4(white)) / 0.005(dim) = 30 ohm
+    - e.g. (3 - 2.4(white)) / 0.005(dim) = 30 ohm
+
+- Recommendation: 30 ohm ... 300 ohm
 
 
 1 battery holder
@@ -44,9 +46,13 @@ through-hole, or surface-mount 1206 or 0603
 
 - any value from 10nF up will be fine
 
+- Recommendation: 10 nF ... 10 uF
+
 1 timing-controlling capacitor, for CAP 11
 
 - any value at all will work
+
+- Recommendation: around 100 nF
 
 2 timing-controlling resistors, for RES 11 and RES 12
 
@@ -54,13 +60,17 @@ through-hole, or surface-mount 1206 or 0603
 
 - f = 1.44 / ((R_11 + 2 x R_12) x C_11)
 
-- T_high = 0.694 x (R_11 + R_12) x C_11
+    - T_high = 0.694 x (R_11 + R_12) x C_11
 
-- T_low = 0.694 x R_12 x C_11
+    - T_low = 0.694 x R_12 x C_11
 
- - e.g. f = 1.44 / ((100 + 2 x 900k) x 200n = 4 Hz, 50% duty
+    - e.g. f = 1.44 / ((100 + 2 x 900k) x 200n = 4 Hz, 50% duty
 
- - e.g. f = 1.44 / ((500k + 2 x 500k) x 100n = 9.6 Hz, 67% duty
+    - e.g. f = 1.44 / ((500k + 2 x 500k) x 100n = 9.6 Hz, 67% duty
+
+- Recommendation: R_11 < 1 k ohm, R_12 > 500 k ohm
+
+- Alternate: make R_11 significantly higher value to make flashing asymmetrical
 
 1 battery holder, if your board does not yet have one
 
